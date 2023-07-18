@@ -159,7 +159,7 @@ public class Interface {
 
             auto.setCor(JOptionPane.showInputDialog("Digite a cor do automóvel", auto.getCor()));
             auto.setKilometragem(Integer.parseInt(JOptionPane.showInputDialog("Digite a kilometragem do automóvel (km)", auto.getKilometragem())));
-            auto.setCombustivel((JOptionPane.showInputDialog("Digite o ano do automóvel", auto.getCombustivel()).charAt(0)));
+            auto.setCombustivel((JOptionPane.showInputDialog("Digite o tipo de combustível do automóvel", auto.getCombustivel()).charAt(0)));
 
             auto.setNr_portas(Integer.parseInt(JOptionPane.showInputDialog("Digite o número de portas do automóvel", auto.getNr_portas())));
             auto.setOpcionais(JOptionPane.showInputDialog("Digite os atributos opcionais do automóvel", auto.getOpcionais()));

@@ -19,7 +19,6 @@ public class Principal {
             switch (code) {
 
                 case 0 -> {
-                    Util.gravar(Dados);
                     JOptionPane.showMessageDialog(null, "Fim.");
                 }
 
